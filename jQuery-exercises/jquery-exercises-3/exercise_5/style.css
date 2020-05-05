@@ -1,0 +1,20 @@
+.wrapper {
+    text-align: center;
+    margin-top: 20%;
+    position: relative;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #227a56;
+}
+
+.square {
+    position: absolute;
+    left: 46%;
+    width: 100px;
+    height: 100px;
+    background-color: #227a56;
+    margin: auto;
+}
+

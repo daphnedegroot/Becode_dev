@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    color: #227a56;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 1em;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: #3edd9c;
+    color: #fff;
+    border: 2px solid #227a56;
+}
+
+.square {
+    width: 100px;
+    height: 10px;
+    background-color: #13422E;
+    margin: 10px;
+}

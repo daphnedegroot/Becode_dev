@@ -1,0 +1,26 @@
+.wrapper {
+    text-align: center;
+    margin-top: 20%;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #227a56;
+}
+
+#number {
+    border-radius: 8px;
+    outline: none;
+    padding: 10px 20px;
+}
+
+#btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #3edd9c;
+    color: #fff;
+    border: 2px solid #227a56 ;
+}
+

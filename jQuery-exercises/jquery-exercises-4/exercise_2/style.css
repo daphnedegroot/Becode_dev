@@ -1,0 +1,33 @@
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    margin: 10px 0;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+}
+
+#btn {
+    font-size: 1em;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #396dff;
+    color: #fff;
+}
+
+#output {
+    margin-top: 30px;
+    text-align: center;
+}

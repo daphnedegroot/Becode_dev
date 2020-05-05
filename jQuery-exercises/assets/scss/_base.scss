@@ -1,0 +1,41 @@
+body {
+  background-color: #4d0f13;
+  color: #fff;
+}
+
+%shared-align {
+  text-align: center;
+}
+
+h1 {
+  @extend %shared-align;
+  font-size: 2.5em;
+}
+
+h3 {
+  @extend %shared-align;
+  font-size: 1.6em;
+}
+
+.exercise {
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  a {
+    background-color: #d32735;
+    color: #fff;
+    font-size: 1.2em;
+    border: 2px solid #4d0f13;
+    border-radius: 5px;
+    padding: 10px 25%;
+    text-decoration: none;
+    &:hover {
+      border: 2px solid #fff;
+    }
+  }
+}
+
+.first_section,
+.third_section {
+  padding-bottom: 20px;
+}

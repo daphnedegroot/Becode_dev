@@ -1,0 +1,29 @@
+.container {
+    width: 800px;
+    margin: 200px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    margin: 5px 0;
+}
+
+#btn {
+    font-size: 1em;
+    background-color: #396dff;
+    color: #fff;
+}
+
+.error {
+    color: #ff0000;
+
+}

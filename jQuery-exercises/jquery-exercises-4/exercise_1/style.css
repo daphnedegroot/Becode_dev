@@ -1,0 +1,46 @@
+body {
+    margin-top: 15%;
+}
+h2 {
+    text-align: center;
+}
+
+ul {
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    border: 1px solid #227a56;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+li:hover {
+    background-color: #227a56;
+    color: #fff;
+    border: 1px solid #3edd9c;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 1.6em;
+    background-color: #3edd9c;
+    border: 1px solid #227a56;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 0 46%;
+}
+
+#btn {
+    outline: none;
+}
+
+#output, #picker,
+#wins, #lost{
+    margin: 5px 0;
+    text-align: center;
+}

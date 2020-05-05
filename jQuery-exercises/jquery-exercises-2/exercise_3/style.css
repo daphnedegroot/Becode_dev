@@ -1,0 +1,17 @@
+#show, #hide {
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#show {
+    border: 1px solid #227a56;
+    background-color: #3edd9c;
+}
+
+#hide {
+    border: 1px solid #3edd9c;
+    background-color: #227a56;
+}

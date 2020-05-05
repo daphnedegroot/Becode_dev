@@ -1,0 +1,85 @@
+<!--https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Opendeurdag</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div id="editor">
+                <div id="creation_window">
+                    <ul id="insert_buttons"></ul>
+                    <textarea name="element_content" id="element_content" cols="47" rows="2"></textarea>
+                    <div id="element_preview"></div>
+                    <button id="add_new">Add</button>
+                    <button id="cancel_new">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 p-2">
+            <div class="row">
+                <div class="col-lg-11 col-md-11 col-sm-11 p-4 mx-auto border rounded">
+                    <ul id="created_elements"></ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 p-2">
+            <div class="row">
+                <div class="col-lg-11 col-md-11 col-sm-11 p-4 mx-auto border rounded" id="student">
+                    <ul id="exercise_elements">
+                        <!-- Write your exercise here -->
+                        <!-- Be sure to wrap every element in an <li> tag-->
+                        <li><h1>Becode</h1></li>
+                        <li><img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" alt="code"></li>
+                        <li><p>De nieuwe opleiding in dagonderwijs om de digitale technologieën onder de knie te krijgen</p></li>
+
+                        <li>
+                            <ul>
+                                <li>Leren te leren</li>
+                                <li>Actieve pedagogie</li>
+                                <li>Gratis</li>
+                                <li>Intensief</li>
+                            </ul>
+                        </li>
+
+                        <li><h2>Wat zal je leren</h2></li>
+                        <li><h3>Soft Skills</h3></li>
+
+                        <li><p>Werkgevers zoeken vandaag plantrekkers, die in staat zijn problemen op te lossen op een intelligente en creatieve manier. Dat is waarom we je bij BeCode vooral leren te leren, in team te werken, een project goed te beheren van A tot Z.</p></li>
+
+                        <li><h3>Tech Skills</h3></li>
+                        <li><p>Bij BeCode zal je alle aspecten ontdekken van het bouwen van een website of mobiele toepassing. De opleiding behandelt zowel “Front-End” als “Back-End” ontwikkeling. De Front-End, dat is waar de elementen gebouwd worden die je ziet op het scherm. De Back-End is de interne structuur van de website of app.</p></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+            <div class="buttons">
+                <button onclick="changeTheme()">Change Theme</button>
+                <button onclick="changeHeader()">Change color headers</button>
+                <button onclick="changeTextColor()">Change text color</button>
+                <button onclick="changeFont()">Change Font</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

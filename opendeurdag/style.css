@@ -1,0 +1,122 @@
+body {
+    background-color: #16232e;
+    font-size: 14px;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+.bad {
+    border-left: 3px solid red;
+    padding: 5px;
+
+}
+
+.good {
+    border-left: 3px solid #ff8319;
+    padding: 5px;
+}
+
+.great {
+    border-left: 3px solid #00df00;
+    padding: 5px;
+}
+
+/*
+ * Mijn CSS
+ */
+
+
+/*--- BUTTONS  ---*/
+
+#insert_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0;
+}
+
+#insert_buttons li{
+    list-style: none;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #63c3d1;
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 600px){
+    #insert_buttons {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 10px 0 ;
+    }
+
+    #insert_buttons li {
+        width: 48%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+button:hover {
+    color: #fff;
+    background-color: #4C95A0;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-button, .delete-button {
+    vertical-align: bottom;
+    color: #63c3d1;
+    padding: 0 5px;
+}
+
+#add_new, #cancel_new {
+    outline: none;
+}
+
+#exercise_elements {
+    padding: 0;
+}
+#exercise_elements > li, #created_elements {
+    list-style: none;
+}
+
+textarea {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.theme {
+    background: #fff;
+    color: #303030;
+}
+
+.header {
+    color: #dc3545;
+}
+
+.textColor {
+    color: #61dd98;
+}
+
+.font {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,76 @@
+body {
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #fff;
+}
+
+/**-------- FORM --------**/
+.register-container, .login-container {
+    height: 90vh;
+    width: 100%;
+}
+
+.register-form, .login-form {
+    max-width: 100%;
+    width: 370px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-group {
+    border-bottom: 2px solid;
+    border-color: #939393;
+}
+
+.no-border {
+    border: none;
+}
+
+/**-------- Profile --------**/
+.responsive {
+    width: 30px;
+}
+
+
+/**-------- BUTTONS --------**/
+.button {
+    color: white;
+    width: 145px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    background-color: rgba(164, 143, 249, 0.92);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 0.77);
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.button:hover, .button:focus, .button:active {
+    background-color: rgba(131, 113, 202, 1);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 1);
+}
+
+.game_button {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    background-color: rgba(164, 143, 249, 0.92);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 0.77);
+    border-radius: 10px;
+}
+
+.draw {
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    background-color: rgba(164, 143, 249, 0.92);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 0.77);
+    padding: 15px 80px;
+    border-radius: 10px;
+}
+.draw:hover, .draw:focus, .draw:active {
+    background-color: rgba(131, 113, 202, 1);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 1);
+}
+
+

@@ -1,0 +1,48 @@
+h1 {
+    font-size: 60px;
+}
+p {
+    text-align: center;
+}
+.credit {
+    font-size: 10px;
+    color: rgba(189, 195, 199, 1);
+}
+.link-credit {
+    color: inherit;
+}
+.link-credit:hover {
+    color: rgba(164, 143, 249, 0.92);
+    text-decoration: none;
+}
+.draw {
+    background-color: rgba(164, 143, 249, 0.92);
+    border-color: rgba(164, 143, 249, 0.92);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 0.77);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 15px 15px;
+    width: 250px;
+    font-size: 30px;
+    color: white;
+}
+.draw:hover, .draw:focus, .draw:active {
+    background-color: rgba(131, 113, 202, 1);
+    border-color: rgba(131, 113, 202, 1);
+    box-shadow: 5px 5px 8px rgba(66, 41, 166, 1);
+}
+.about {
+    background-color: rgba(123, 230, 211, 1);
+    border-color: rgba(123, 230, 211, 1);
+    box-shadow: 5px 5px 8px rgba(0, 147, 121, 0.58);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    width: 55px;
+    height: 50px;
+    font-size: 35px;
+    padding-bottom: 48px;
+    color: white;
+}
+.about:hover, .about:focus, .about:active{
+    background-color: rgba(105, 203, 186, 1);
+    border-color: rgba(105, 203, 186, 1);
+    box-shadow: 5px 5px 8px rgba(0, 100, 82, 0.58);
+}

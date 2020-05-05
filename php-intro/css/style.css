@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("../images/ace-card-casino-262333.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    margin: 0 150px;
+}
+
+h1 {
+    color: rgba(255,215,0,.7);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4.2em;
+}
+
+.info{
+    display: flex;
+}
+
+.info > p{
+    font-size: 1.8em;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+input {
+    border-radius: 2px;
+    padding: 10px 30px;
+}
+
+.hit {
+    border: 2px solid #00c100 ;
+}
+
+.stand {
+    border: 2px solid #ff1228;
+}
+
+.surrender {
+    border: 2px solid #ff8319;
+}
+
+.reset {
+    background: url("../images/kissclipart-reset-button-png-clipart-reset-button-computer-ico-8b633ca8d43be661.png");
+    background-size: cover;
+    padding: 30px 30px;
+    margin: 20px 0;
+    border: transparent;
+}
+
+.lose, .win {
+    font-size: 2.2em;
+}
+
+.win {
+    color: rgba(255,215,0,.7);;
+}
+
+.lose {
+    color: #ff1228;
+}

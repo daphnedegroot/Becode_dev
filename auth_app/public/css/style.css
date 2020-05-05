@@ -1,0 +1,13 @@
+body {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.profile-avatar {
+    width: 100px;
+    object-fit: contain;
+}
+
+.nav-avatar {
+    width: 30px;
+}

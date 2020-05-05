@@ -1,0 +1,29 @@
+/*
+  Footer
+ */
+
+.footer {
+  background-color: $secondary-color;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  p{
+    font-size: 15px;
+    color: $secondary-text-color;
+    text-align: center;
+    padding: 5px 0;
+    a{
+      color: $secondary-text-color;
+      text-decoration: none;
+      margin: 0 10px;
+      &:hover {
+        border-bottom: 1px solid $secondary-text-color;
+      }
+    }
+  }
+}
+
+.design {
+  display: flex;
+  justify-content: center;
+}

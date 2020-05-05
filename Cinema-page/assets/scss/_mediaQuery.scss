@@ -1,0 +1,41 @@
+@media only screen and (max-width:767px) {
+  .bg-img {
+    background-image: none;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  nav {
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      li {
+        text-align: center;
+        padding: 5px;
+      }
+    }
+  }
+
+  .movie__container{
+    .movie {
+      .image {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+      }
+    }
+  }
+
+
+  .show-case-weekly {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .show-case-expected {
+    display: flex;
+    flex-direction: column;
+  }
+}

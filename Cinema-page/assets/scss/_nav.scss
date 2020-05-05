@@ -1,0 +1,27 @@
+/*
+  Navigation
+ */
+
+nav {
+  font-family: $secondary-font;
+  background-color: $secondary-color;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    li {
+      list-style: none;
+      a {
+        font-weight: bold;
+        color: $secondary-text-color;
+        text-decoration: none;
+        &:hover {
+          border-bottom: 2px solid $border-color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.header-nav {
+  padding: 0;
+
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 1em;
+  background-color: #167cac;
+}
+
+h2{
+  font-family: $secondary-font;
+  text-align: center;
+}
+
+
+/*
+  Header
+ */
+.bg-img {
+  position: absolute;
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("../../images/Aquaman-peut-il-donner-un-second-souffle-à-l’univers-DC-Comics-grande.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.container {
+  padding: 0;
+  margin-top: 500px;
+  background-color: #fff;
+}
+
+/*
+  Main
+ */
+%flex-shared {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.show-case-weekly {
+  @extend %flex-shared;
+  .movie {
+    text-align: center;
+  }
+}
+
+.show-case-expected {
+  @extend %flex-shared;
+  .movie {
+    text-align: center;
+  }
+}
+
+.movie__container {
+  position: relative;
+  .movie {
+    .image {
+      margin-bottom: 20px;
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: 235px;
+      transition: .5s ease-in-out;
+      backface-visibility: hidden;
+      box-shadow: 3px 3px 5px rgba(0,0,0,.6);
+    }
+    .middle {
+      transition: .5s ease-in-out;
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      a {
+        text-decoration: none;
+        h4 {
+          font-size: 22px;
+          font-style: oblique;
+          color: $primary-text-color;
+        }
+      }
+    }
+  }
+}
+
+.movie__container:hover .image {
+  opacity: 0.3;
+}
+
+.movie__container:hover .middle {
+  display: block;
+}
+
+
+
+
+
+
+

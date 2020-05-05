@@ -1,0 +1,19 @@
+/*
+  Header
+ */
+header {
+  background-color: rgba(213, 82, 188,.3);
+  padding: 20px;
+  h1 {
+    @extend %header-shared;
+    font-family: 'Laila', serif;
+    font-size: 2.2em;
+    color: #ad096d;
+  }
+  h2 {
+    @extend %header-shared;
+    font-family: 'Laila', serif;
+    font-size: 1.8em;
+    color: #ad096d;
+  }
+}

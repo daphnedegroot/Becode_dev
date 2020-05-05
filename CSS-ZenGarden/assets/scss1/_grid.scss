@@ -1,0 +1,19 @@
+/*
+  Grid
+ */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.intro {
+  grid-column: 2/5;
+}
+
+.main{
+  grid-column: 2/5;
+}
+
+.sidebar {
+  grid-column: 2/5;
+}

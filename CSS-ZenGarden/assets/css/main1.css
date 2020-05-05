@@ -1,0 +1,159 @@
+/*
+  CSS - ZenGarden
+ */
+/*
+  Fonts
+ */
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+/*
+
+  Base - styles
+ */
+/*
+  Grid
+ */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.intro {
+  grid-column: 2/5;
+}
+
+.main {
+  grid-column: 2/5;
+}
+
+.sidebar {
+  grid-column: 2/5;
+}
+
+/*
+  COLOR
+ */
+body {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1em;
+  background-image: url("../images/background-1099223_1920.jpg");
+  line-height: 1.4em;
+  color: #411907;
+}
+
+h1, h2, h3 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none;
+  color: #d4bba0;
+  font-weight: bold;
+}
+a:hover {
+  color: #794119;
+  border-bottom: 2px solid #794119;
+}
+a:visited {
+  color: #88715d;
+}
+
+/*
+  Header
+ */
+.intro {
+  background-image: url("../images/5887c27fbc2fc2ef3a186047 (2).png");
+  background-size: cover;
+  height: 580px;
+  text-align: center;
+}
+.intro header {
+  margin-top: 65px;
+}
+.intro header h1 {
+  font-size: 2.1em;
+}
+.intro .summary p {
+  font-size: 1.1em;
+}
+.intro p {
+  padding: 0 20px;
+}
+
+/*
+  Main
+ */
+.main .benefits, .main .participation, .main .explanation {
+  background-image: url("../images/5887c27fbc2fc2ef3a186047.png");
+  background-size: cover;
+  width: 33.3%;
+}
+
+.main .benefits p, .main .participation p, .main .explanation p {
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .participation p {
+  padding-right: 40px;
+}
+.main .requirements {
+  background-image: url("../images/5887c27fbc2fc2ef3a186047 (2).png");
+  background-size: cover;
+  height: 600px;
+}
+.main .requirements h3 {
+  margin-top: 70px;
+}
+.main p {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.main h3 {
+  text-align: center;
+}
+
+footer {
+  margin-top: -40px;
+  margin-bottom: -40px;
+  background-image: url("../images/5887c27fbc2fc2ef3a186047 (4).png");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  margin-top: 80px;
+}
+
+/*
+  Aside
+ */
+.wrapper {
+  background-image: url("../images/5887c27fbc2fc2ef3a186047 (3).png");
+  background-size: cover;
+  height: 490px;
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper h3 {
+  margin-top: 75px;
+}
+.wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+.wrapper ul li {
+  list-style-image: url("../images/kisspng-newspaper-computer-icons-article-5afd60e0628687.8044002415265548484036.png");
+}
+
+/*# sourceMappingURL=main1.css.map */

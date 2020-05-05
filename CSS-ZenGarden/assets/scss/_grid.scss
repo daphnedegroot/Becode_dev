@@ -1,0 +1,37 @@
+/*
+  Grid
+ */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.intro {
+  grid-column: 1/6;
+}
+
+.main{
+  grid-column: 2/4;
+}
+
+/*
+  Media Queries
+ */
+@media only screen and (max-width: 600px) {
+  .page-wrapper {
+    grid-template-columns: 5% 1fr 5%;
+
+  }
+  .intro {
+    grid-column: 1/4;
+  }
+  .main {
+    grid-column: 2/2;
+  }
+  .sidebar{
+    grid-column: 2/2;
+  }
+}
+
+
+

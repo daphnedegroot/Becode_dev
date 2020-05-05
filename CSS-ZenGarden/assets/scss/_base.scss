@@ -1,0 +1,119 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  color: $base-text-color;
+  background-image: url("../images/aquatic-beautiful-bloom-539694.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.page-wrapper {
+  background: $base-bg-color;
+  max-width: 80%;
+  margin: 200px auto;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: $heading-color;
+  font-family: 'Laila', serif;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+    border-bottom: 1px solid $link-hover-color;
+  }
+  &:visited {
+    color: $link-visited-color;
+  }
+}
+
+/*
+  Header
+ */
+%header-shared {
+  text-align: center;
+}
+.intro {
+  .summary {
+    @extend %header-shared;
+    font-size: 1.25em;
+    p{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  .preamble {
+    h3 {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+}
+
+/*
+  Main
+ */
+footer {
+  a:visited {
+    color: $link-visited2-color;
+  }
+}
+
+/*
+  Aside
+ */
+.sidebar {
+  display: flex;
+  .wrapper {
+    margin-left: 20px;
+    padding: 0 10px;
+    background-color: $footer-bg-color;
+    height: 590px;
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
+
+/*
+  Media Queries
+ */
+@media only screen and (max-width: 600px) {
+  %text-center {
+    text-align: center;
+  }
+  .page-wrapper {
+    margin: 100px auto;
+  }
+  .main {
+    margin-bottom: 20px;
+  }
+  .sidebar {
+    .wrapper {
+      margin-left: 0;
+      margin-bottom: 20px;
+      .design-selection {
+        @extend %text-center;
+      }
+      .design-archives {
+        @extend %text-center;
+      }
+      .zen-resources {
+        @extend %text-center;
+      }
+    }
+  }
+}

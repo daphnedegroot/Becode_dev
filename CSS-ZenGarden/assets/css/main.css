@@ -1,0 +1,187 @@
+/*
+  CSS - ZenGarden app
+ */
+/*
+  Fonts
+ */
+@import url("https://fonts.googleapis.com/css?family=Laila");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+/*
+  Base styles
+ */
+/*
+  Grid
+ */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.intro {
+  grid-column: 1/6;
+}
+
+.main {
+  grid-column: 2/4;
+}
+
+/*
+  Media Queries
+ */
+@media only screen and (max-width: 600px) {
+  .page-wrapper {
+    grid-template-columns: 5% 1fr 5%;
+  }
+
+  .intro {
+    grid-column: 1/4;
+  }
+
+  .main {
+    grid-column: 2/2;
+  }
+
+  .sidebar {
+    grid-column: 2/2;
+  }
+}
+/*
+  COLORS
+ */
+/*
+  Header
+ */
+header {
+  background-color: rgba(213, 82, 188, 0.3);
+  padding: 20px;
+}
+header h1 {
+  font-family: "Laila", serif;
+  font-size: 2.2em;
+  color: #ad096d;
+}
+header h2 {
+  font-family: "Laila", serif;
+  font-size: 1.8em;
+  color: #ad096d;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  color: #341026;
+  background-image: url("../images/aquatic-beautiful-bloom-539694.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.page-wrapper {
+  background: rgba(255, 255, 255, 0.7);
+  max-width: 80%;
+  margin: 200px auto;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #ad096d;
+  font-family: "Laila", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #565d16;
+}
+a:hover {
+  color: #a883a2;
+  border-bottom: 1px solid #a883a2;
+}
+a:visited {
+  color: #d997d8;
+}
+
+/*
+  Header
+ */
+.intro .summary, header h1, header h2 {
+  text-align: center;
+}
+
+.intro .summary {
+  font-size: 1.25em;
+}
+.intro .summary p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.intro .preamble h3 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.intro .preamble p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*
+  Main
+ */
+footer a:visited {
+  color: #ad096d;
+}
+
+/*
+  Aside
+ */
+.sidebar {
+  display: flex;
+}
+.sidebar .wrapper {
+  margin-left: 20px;
+  padding: 0 10px;
+  background-color: #fff;
+  height: 590px;
+}
+.sidebar .wrapper ul {
+  padding: 0;
+}
+.sidebar .wrapper ul li {
+  list-style: none;
+}
+
+/*
+  Media Queries
+ */
+@media only screen and (max-width: 600px) {
+  .sidebar .wrapper .zen-resources, .sidebar .wrapper .design-archives, .sidebar .wrapper .design-selection {
+    text-align: center;
+  }
+
+  .page-wrapper {
+    margin: 100px auto;
+  }
+
+  .main {
+    margin-bottom: 20px;
+  }
+
+  .sidebar .wrapper {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/*
+  Footer
+ */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(213, 82, 188, 0.3);
+  padding: 20px;
+}
+footer a {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

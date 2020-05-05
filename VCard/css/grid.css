@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+    grid-template-rows: 1fr 500px 1fr;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 92% 8%;
+    grid-area: 2/2;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-area: 1/1;
+}
+
+.grid-1_1 {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-area: 1/1;
+}
+
+.grid-1_2 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-area: 1/2;
+}
+
+.grid-1_3 {
+    display: grid;
+    grid-area: 1/1;
+}
+
+.grid-1_4 {
+    display: grid;
+    grid-area: 2/1;
+}
+
+.grid-1_5 {
+    display: grid;
+    grid-area: 1/1;
+}
+
+.grid-1_6 {
+    display: grid;
+    grid-area: 2/1;
+}
+
+.grid-2 {
+    display: grid;
+    grid-area: 2/1;
+}

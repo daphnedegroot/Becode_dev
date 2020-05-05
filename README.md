@@ -5,6 +5,11 @@
 - [View All Projects](https://daphnedegroot.github.io/Becode_dev/)
 
 ### HTML / CSS
+- [Markdown warmpup html](/markdown-warmup-html)
+- [CV](/Mijn-CV)
+- [VCard](/VCard)
+- [404 Page](/404-Page)
+- [Bootstrap Training](/bootstrap-training)
 - [Cinema landing page](/Cinema-page)
 - [Restaurant website](/restaurant-css-framework)
 - [Zengarden](/CSS-ZenGarden)

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7bc5ae;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+.main {
+    background-color: #027558;
+    width: 35%;
+    float: left;
+    height: 1000px;
+    box-shadow: 15px 0 20px -15px inset;
+}
+
+.image {
+    background-image: url("../images/pasfoto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 10% center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 40px auto 20px auto;
+}
+
+.main__title {
+    color: #d1ede1;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.contact, .skills, .hobby, .language {
+    color: #d1ede1;
+    margin: auto 14%;
+}
+
+.contact__info, .skills__info, .hobby__info, .lang__info {
+    padding: 3px;
+}
+
+.progress {
+    border: 1px solid #d1ede1;
+}
+
+.progress-1__skill, .progress-2__skill, .progress-3__skill, .progress-4__skill, .progress-5__skill,
+.progress-1__lang, .progress-2__lang, .progress-3__lang{
+    height: 10px;
+    background-color: #d1ede1;
+}
+.progress-1__skill {width: 50%;}
+.progress-2__skill {width: 40%;}
+.progress-3__skill {width: 20%;}
+.progress-4__skill {width: 20%;}
+.progress-5__skill {width: 40%;}
+
+.progress-1__lang {width: 90%;}
+.progress-2__lang {width: 80%;}
+.progress-3__lang {width: 20%;}
+
+/* ASIDE */
+.underline {
+    height: 1px;
+    border: none;
+    background-color: #d1ede1;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.underline_ {
+    height: 1px;
+    border: none;
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+    width: 55%;
+    margin-top: -12px;
+    margin-right: 20px;
+
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+
+
+.aside {
+    background-color: #fff;
+    display: inline-block;
+    width: 65%;
+    height: 1000px;
+    float: right;
+    box-shadow: -15px 0 20px -15px inset;
+}
+
+.info, .work_experience, .education {
+    margin: 30px;
+}
+
+.info__title, .info__subtitle {
+    color: #027558;
+}
+
+.info__title {
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+.info__subtitle {
+    font-size: 20px;
+}
+
+.pitch {
+    padding: 15px 0;
+}
+
+
+.education__info, .work-experience__info {
+    float: left;
+    width: 38%;
+    padding-top: 30px;
+}
+
+.education__desc, .work-experience__desc {
+    float: left;
+    width: 60%;
+    padding-top: 30px;
+}
+
+.aside__title {
+    color: #027558;
+    font-size: 25px;
+}
+
+.pad {
+    padding-top: 40px;
+}
+
+.aside__subtitle {
+    color: #027558;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.education__title, .work-experience__title {
+    color: #027558;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icon__item {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    color: #027558;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+

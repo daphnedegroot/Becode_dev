@@ -1,0 +1,52 @@
+body {
+    font-family: 'Baloo Tamma', cursive;
+}
+
+img {
+    width: 55%;
+    margin-top: 5%;
+}
+
+.text, .image-container {
+    display: inline-block;
+    width: 49%;
+    float: left;
+}
+
+.text {
+    font-size: 50px;
+    margin-top: 15%;
+    text-align: center;
+    color: #000;
+}
+
+.image-container {
+    z-index: 1;
+}
+
+.msg {
+    position: absolute;
+    top: 7%;
+    right: 41%;
+    font-size: 40px;
+    width: 97px;
+    line-height: 1.1em;
+    transform: rotate(-48deg);
+    float: right;
+    z-index: 9;
+}
+
+a {
+    position: absolute;
+    top: 38%;
+    right: 24.8%;
+    font-size: 20px;
+    transform: rotate(-35deg);
+    background-color: #f2e450;
+    color: #000;
+    border: 1px solid #f2e450;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 25px 8px 25px;
+
+}

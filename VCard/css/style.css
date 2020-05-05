@@ -1,0 +1,115 @@
+body {
+    padding-top: 100px;
+}
+
+.grid-2 {
+    background-color: #ccc;
+}
+
+.grid-1_2 {
+    background-color: #ee8d22;
+}
+
+.grid-1_3 {
+    background-image: linear-gradient(to top, #2d2d2d, #ccc);
+}
+
+.grid-1_4 {
+    background-color: #2d2d2d;
+}
+
+.image {
+    background-image: url("../images/pasfoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto ;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ee8d22;
+    
+    margin-bottom: -20px;
+}
+
+.image__title {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: -35px;
+}
+
+.image__subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu__links {
+    border-top: 1px solid #ccc;
+}
+
+.menu__info {
+    font-size: 19px;
+    margin-left: 50px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #707070;
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.menu__links:hover {
+    background-image: linear-gradient(to right, #eed190, #ee8d22);
+
+}
+
+.header__title {
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 1.0px;
+    margin-left: 40px;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.header__info {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.personal__subtitle {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.personal__info {
+    margin-left: 40px;
+}
+
+.footer__info {
+    text-align: center;
+    font-size: 16px;
+}
+
+.icons {
+    color: #000;
+}
+
+.icon_ {
+    margin-right: 15px;
+}

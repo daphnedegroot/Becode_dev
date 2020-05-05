@@ -1,0 +1,13 @@
+.container {
+    background-color: mediumpurple;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+.row > div {
+    text-align: center;
+}

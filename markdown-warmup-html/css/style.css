@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-image: url("../images/morocco.png");
+    padding: 80px 120px 80px 120px;
+}
+
+.container  {
+    background-color: #ffffff;
+    opacity: .8;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #7debff;
+
+}
+
+.main-section {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+
+

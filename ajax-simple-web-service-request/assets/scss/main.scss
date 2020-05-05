@@ -1,0 +1,38 @@
+.btn {
+  text-align: center;
+  margin-top: 15%;
+  #btn {
+    background-color: #2b27ff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 3px solid #15137c;
+    outline: none;
+    &:hover {
+      background-color: #1f4dff;
+
+    }
+  }
+}
+
+#content {
+  text-align: center;
+  #quote {
+    margin: 0 250px;
+  }
+}
+
+blockquote {
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,108 @@
+.menu, .menu2,
+.menu3, .menu4 {
+    height: 100%;
+    color: #e8edf3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.mob_menu {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.menu {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/beef-cooked-cuisine-1268549.jpg");
+}
+
+.menu2 {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/blood-board-close-up-306799.jpg");
+}
+
+.menu3 {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/asparagus-close-up-colors-1101249.jpg");
+}
+
+.menu4 {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/berries-close-up-creamy-1346382.jpg");
+}
+
+.badge {
+    background-color: #740e20;
+}
+
+.card-header {
+    background-color: #740e20;
+    border: 2px solid #2d0008;
+}
+
+.btn-link {
+    display: block;
+    color: #fdf3f5;
+}
+
+.btn-link:hover {
+    color: #bf5467;
+    text-decoration: none;
+    border-top: 1px solid #fdf3f5;
+    border-bottom: 1px solid #fdf3f5;
+}
+
+@media only screen and (max-width: 600px) {
+    .badge {
+        color: #fff;
+    }
+}
+
+.overlay:hover {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 8px;
+    transform: scale(1);
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.gluten::before, .schaaldieren::before, .lactose::before,
+.nuts::before, .fish::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.gluten::before {
+    background-image: url("../../images/allergenen.png");
+    background-size: 300px;
+}
+
+.schaaldieren::before {
+    background-image: url("../../images/allergenen.png");
+    background-size: 300px;
+    background-position: -50px -50px;
+}
+
+.lactose::before {
+    background-image: url("../../images/allergenen.png");
+    background-size: 300px;
+    background-position: -100px 0;
+}
+
+.nuts::before {
+    background-image: url("../../images/allergenen.png");
+    background-size: 300px;
+    background-position: 0 50px;
+}
+
+.fish::before {
+    background-image: url("../../images/allergenen.png");
+    background-size: 300px;
+    background-position: -140px 0;
+}
+

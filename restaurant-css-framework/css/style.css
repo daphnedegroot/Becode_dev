@@ -1,0 +1,31 @@
+.card > img {
+    width: 100%;
+    height: 260px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/alcoholic-beverages-close-up-cuisine-541216.jpg");
+    height: 500px;
+    border-radius: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.jumbotron p, .jumbotron h1 {
+    color: #e8edf3;
+}
+
+.btn {
+    background-color: #740e20;
+    border: none;
+    color: #fdf3f5;
+}
+
+.btn:hover {
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    background-color: #bf5467;
+    font-size: 1rem;
+    border: none;
+}

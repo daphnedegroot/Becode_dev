@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+    iframe {
+        height: 200px;
+    }
+
+    .address__info {
+        text-align: center;
+    }
+
+    .h4 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        line-height: 0.8rem;
+    }
+}
+
+.btn {
+    background-color: #740e20;
+    color: #fdf3f5;
+}
+
+

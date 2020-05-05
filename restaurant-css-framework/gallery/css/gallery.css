@@ -1,0 +1,15 @@
+.card-img-top {
+    width: 100.1%;
+    border: 4px solid #740e20;
+    border-radius: 3px;
+}
+
+.page-item.active .page-link {
+    background: #740e20;
+    border-color: #740e20;
+}
+
+.page-link {
+    color: #740e20;
+}
+

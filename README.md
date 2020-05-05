@@ -2,6 +2,8 @@
 
 ## Index
 
+- [View All Projects](https://daphnedegroot.github.io/Becode_dev/)
+
 ### HTML / CSS
 - [Cinema landing page](/Cinema-page)
 - [Restaurant website](/restaurant-css-framework)

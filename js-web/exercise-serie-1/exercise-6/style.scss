@@ -1,0 +1,32 @@
+//Write your scss here and then compile it to "style.css"...
+
+.responsive {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.cat_images {
+  width: 60%;
+  margin: 0 auto;
+}
+
+button {
+  color: #ffffff;
+  background-color: #16534E;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-left: 45%;
+  margin-right: 45%;
+  &:focus {
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}

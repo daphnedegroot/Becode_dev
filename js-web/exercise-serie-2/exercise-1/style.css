@@ -1,0 +1,11 @@
+.img-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.img-container .responsive {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

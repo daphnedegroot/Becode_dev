@@ -1,0 +1,12 @@
+//Write your scss here and then compile it to "style.css"...
+
+
+.img-container{
+  width: 50%;
+  margin: 0 auto;
+  .responsive {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
